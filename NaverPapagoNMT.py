@@ -2,8 +2,8 @@ import os
 import sys
 import urllib.request
 import json
-client_id = "v4KO7sTXQ_qLjAuX_ll4"
-client_secret = "XG9X3gx_EK"
+client_id = ""
+client_secret = ""
 encText = urllib.parse.quote("They keep their songs about real life issues(depression, insomnia, etc.)﻿") # 따옴표 안에 번역할 내용 넣음.
 data = "source=en&target=ko&text=" + encText
 url = "https://openapi.naver.com/v1/papago/n2mt"
